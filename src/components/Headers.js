@@ -9,16 +9,16 @@ import ImageLogo1 from "./img/spider-man-logo.png";
 export const Headers = () => {
   return (
     <div className="header">
-      <ImgLogo className="img1" imagem={ImageLogo} />
+      <ImgLogo classes="img1" imagem={ImageLogo} />
       <Stack
         direction="column"
         justifyContent="space-around"
         alignItems="flex-start"
         spacing={1}
       >
-        <ImgLogo className="img1" imagem={ImageLogo1} />
-        <ImgLogo className="img1" imagem={ImageLogo2} />
-        <ImgLogo className="img1" imagem={ImageLogo3} />
+        <ImgLogo classes="img1" imagem={ImageLogo1} />
+        <ImgLogo classes="img1" imagem={ImageLogo2} />
+        <ImgLogo classes="img1" imagem={ImageLogo3} />
       </Stack>
     </div>
   );
