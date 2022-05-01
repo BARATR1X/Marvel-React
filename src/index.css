@@ -4,16 +4,10 @@
   box-sizing: border-box;
 }
 
-body,
-html {
+body {
   background: linear-gradient(
     45deg,
     rgba(21, 16, 16, 0.6979166666666667) 0%,
     rgba(126, 208, 231, 0.9528186274509804) 80%
   );
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
 }

@@ -3,9 +3,7 @@
   flex-direction: row;
   justify-content: space-around;
   background-color: #61dafb;
-  border-top: 10px solid rgb(99, 99, 99);
-  border-right: 10px solid rgb(99, 99, 99);
-  border-radius: 0 100px 0 0;
+  width: 100%;
 }
 
 .footer1 {
