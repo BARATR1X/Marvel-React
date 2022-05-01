@@ -1,26 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .header {
   display: flex;
   flex-direction: column;
-  background: transparent;
-  justify-content: space-between;
   border-top: 20px solid #61dafb;
   border-left: 10px solid #61dafb;
   border-right: 0;
   border-bottom: 230px solid #61dafb;
-  border-radius: 10px 10px 0 100px ;
+  border-radius: 10px 10px 0 100px;
   padding: 30px;
-  top: 0;
-  left: 20px;
-  bottom: 80px;
-  position: fixed;
-  width: auto;
-  height: 0 auto;
 }
-
-

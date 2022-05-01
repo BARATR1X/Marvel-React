@@ -1,79 +1,40 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.footer { 
-  width: 99%;
-  height: 240px;
-  right: 0;
-  left: 289px;
-  bottom: 80px;  
-  position: fixed;
-  display: flex;  
-  background-color: #61dafb;  
-  border-top: 10px solid rgb(99, 99, 99);   
-  border-right: 10px solid rgb(99, 99, 99);   
-  border-radius: 0 100px  0 0;
-}
-
-.footer1{
-  width: 100%;
+.footer {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #61dafb;
+  border-top: 10px solid rgb(99, 99, 99);
+  border-right: 10px solid rgb(99, 99, 99);
+  border-radius: 0 100px 0 0;
+}
+
+.footer1 {
+  display: flex;
   align-items: center;
-  margin: 5px;
 }
 
 .footer2 {
-  width: 100%;
-  display: flex; 
-  text-align: left;  
-  height: auto;  
-  text-decoration: none;    
-  right: 0;
-}
-
-.footer3 { 
-  padding: 20px;  
   display: flex;
-  flex-direction: column;  
-  right: 0;  
-}
-
-.footer4 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  text-align: left;
-  justify-content: center;
-  text-decoration: none;
-  right: 0px; 
 }
 
 .ancora {
-  width: 66%;
-  height: 0 auto;
-  display: block;
-  padding: 0;  
-  right: 0; 
+  display: flex;
+  flex-direction: column;
 }
 
 .nav {
-  width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0;
-  margin: 0;
-  right: 0; 
+}
+
+.social-media {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .icones {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   flex-direction: row;
-  right: 0; 
 }
-
-

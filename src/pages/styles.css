@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.sidebar {
+  display: flex;
+  height: 100%;
+}
+
+.main {
+  display: grid;
+  grid-template-rows: 80% 20%;
+  width: 100%;
+}
+
+.menudown {
+  display: flex;
+  flex-direction: column;
+}

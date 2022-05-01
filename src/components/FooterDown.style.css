@@ -1,16 +1,7 @@
 .footerDown {
-  display: block; 
-  bottom: 0;
-  left: 20px;
-  position: fixed;
-  text-align: center;
-  flex-wrap: wrap;
-  width: auto;
-  height: auto;
   display: flex;
-  background-color: rgba(21, 16, 16, 0.8);
+  background-color: rgb(21, 16, 16);
   padding: 20px;
-  border-top: 10px solid #61dafb;  
-  border-radius: 100px 0  0 0;
+  border-top: 10px solid #61dafb;
+  border-radius: 100px 0 0 0;
 }
-

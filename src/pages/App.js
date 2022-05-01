@@ -1,18 +1,25 @@
 import React from "react";
-import { Buttons } from "../components/Buttons";
 import { Footer } from "../components/Footer";
 import { FooterDown } from "../components/FooterDown";
 import { Headers } from "../components/Headers";
 import { Main } from "../components/Main";
-import "./App.css";
+
+import "./styles.css";
 
 export const App = () => {
   return (
-    <div className="App">
-      <Headers />
-      <Buttons />
-      <Main />
-      <Footer />
+    <div className="container">
+      <div className="box">
+        <div className="sidebar">
+          <Headers />
+        </div>
+        <div className="main">
+          <Main />
+          <div className="menudown">
+            <Footer />
+          </div>
+        </div>
+      </div>
       <FooterDown />
     </div>
   );

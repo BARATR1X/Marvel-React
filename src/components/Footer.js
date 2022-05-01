@@ -47,7 +47,7 @@ export const Footer = () => {
       </div>
       <div className="footer1">
         <nav className="nav">
-          <nav className="footer3">
+          <nav className="social-media">
             <ListFooter ancora="FOLLOW MARVEL" />
             <nav className="icones">
               <Icones />
